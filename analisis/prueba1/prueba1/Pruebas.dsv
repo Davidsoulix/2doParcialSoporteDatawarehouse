@@ -1,0 +1,150 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c23a703e-75b9-452a-a958-77395b5de8dd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Pruebas</ID>
+  <Name>Pruebas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Pruebas</DataSourceID>
+  <Schema>
+    <xs:schema id="Pruebas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Pruebas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="7758b283-5522-4036-b744-17326b4cb1c1">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_fact_parcial" msprop:design-time-name="a17f1f9c-d73e-4e12-9916-b567690596d8" msprop:DbTableName="fact_parcial" msprop:FriendlyName="fact_parcial" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fparcial_key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="eb5251fa-9871-4a74-baa3-0102e482db2e" msprop:DbColumnName="fparcial_key" msprop:FriendlyName="fparcial_key" type="xs:int" />
+                  <xs:element name="numero_habitacion" msprop:design-time-name="92ace883-23f9-4f31-ae94-1015399efe49" msprop:DbColumnName="numero_habitacion" msprop:FriendlyName="numero_habitacion" type="xs:int" />
+                  <xs:element name="name_huesped" msprop:design-time-name="a7c5cb89-7c6a-464f-8ebe-2246df36e8f4" msprop:DbColumnName="name_huesped" msprop:FriendlyName="name_huesped">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cantdiasocupados" msprop:design-time-name="65ca1b4d-d71e-46c5-8ca5-833e2e80969d" msprop:DbColumnName="cantdiasocupados" msprop:FriendlyName="cantdiasocupados" type="xs:int" minOccurs="0" />
+                  <xs:element name="cantdiastotal" msprop:design-time-name="d21f225c-cfd4-4bab-800f-90dc14eec35a" msprop:DbColumnName="cantdiastotal" msprop:FriendlyName="cantdiastotal" type="xs:int" minOccurs="0" />
+                  <xs:element name="costo" msprop:design-time-name="cc02400c-dafb-4c91-946a-8146cce53a2e" msprop:DbColumnName="costo" msprop:FriendlyName="costo" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ingresos" msprop:design-time-name="0f07f0e1-a42d-4aba-ade7-7546a1a0b11c" msprop:DbColumnName="ingresos" msprop:FriendlyName="ingresos" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_parcial" msprop:design-time-name="f852bcf3-1304-4492-943a-ecc16e6ddcd0" msprop:DbTableName="Dim_parcial" msprop:FriendlyName="Dim_parcial" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="hotel_name" msprop:design-time-name="5a8275d1-22f9-45c9-887e-fa6bb22aa397" msprop:DbColumnName="hotel_name" msprop:FriendlyName="hotel_name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="numero_habitacion" msprop:design-time-name="3b09f360-f437-4fa6-97fc-83ce959aa9de" msprop:DbColumnName="numero_habitacion" msprop:FriendlyName="numero_habitacion" type="xs:int" />
+                  <xs:element name="nombre_area" msprop:design-time-name="81bad19b-8bf2-4484-8c27-3c3504e02dc1" msprop:DbColumnName="nombre_area" msprop:FriendlyName="nombre_area">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombre_tipo_habitacion" msprop:design-time-name="903a8c19-3f06-43e6-a4f1-002fe1e3517d" msprop:DbColumnName="nombre_tipo_habitacion" msprop:FriendlyName="nombre_tipo_habitacion">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_parcialhuesped" msprop:design-time-name="ef32388a-c881-4e09-a371-71a09d6c9c1e" msprop:DbTableName="Dim_parcialhuesped" msprop:FriendlyName="Dim_parcialhuesped" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="gender_huesped" msprop:design-time-name="b763d744-d29d-4611-b59e-5a5c3f6e5452" msprop:DbColumnName="gender_huesped" msprop:FriendlyName="gender_huesped" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="name_huesped" msprop:design-time-name="0a867e4e-190c-4175-bc7c-4fcdce0b4206" msprop:DbColumnName="name_huesped" msprop:FriendlyName="name_huesped">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="edad" msprop:design-time-name="1db9095c-4916-4113-8991-d71daabb65fe" msprop:DbColumnName="edad" msprop:FriendlyName="edad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_fact_parcial" />
+          <xs:field xpath="fparcial_key" />
+          <xs:field xpath="numero_habitacion" />
+          <xs:field xpath="name_huesped" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_parcial_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_parcial" />
+          <xs:field xpath="numero_habitacion" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_parcialhuesped_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_parcialhuesped" />
+          <xs:field xpath="name_huesped" />
+        </xs:unique>
+        <xs:keyref name="FK__fact_parc__numer__00200768" refer="dbo_Dim_parcial_Constraint1">
+          <xs:selector xpath=".//dbo_fact_parcial" />
+          <xs:field xpath="numero_habitacion" />
+        </xs:keyref>
+        <xs:keyref name="FK__fact_parc__name___01142BA1" refer="dbo_Dim_parcialhuesped_Constraint1">
+          <xs:selector xpath=".//dbo_fact_parcial" />
+          <xs:field xpath="name_huesped" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Pruebas xmlns="" />
+  </Schema>
+</DataSourceView>

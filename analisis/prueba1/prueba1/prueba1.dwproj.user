@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Pruebas</Id>
+            <Name>Pruebas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZwCalaCCkkGzLF7HcyvWegAAAAAQAAAAUAByAHUAZQBiAGEAcwAAABBmAAAAAQAAIAAAAPUhS6WSJP/ZOvgbAkZWiO9QfG6H+Me9XBnBV2nO1kN+AAAAAA6AAAAAAgAAIAAAAOHM8HxUQr6u+ESdOV/XEFgqRUEU/GFvj47wdJ9k5UtSEAAAANZoUkELTnZsSwjq59o9S7lAAAAAH7SSTNe1aS1r/UPtfhqFLKGKru1xHk1Q9mH1IVYCc/AA81Tjah3azW+LUhuppuJQNp9kN/wWLMNa2pMVeOFe2A==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Pruebas</Id>
+            <Name>Pruebas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZwCalaCCkkGzLF7HcyvWegAAAAAQAAAAUAByAHUAZQBiAGEAcwAAABBmAAAAAQAAIAAAAHoJ9u6uo2nvqR1oUGsuMZLgwno9naVCcMSgDiCd3WipAAAAAA6AAAAAAgAAIAAAAGFQvkRDmLylchlTqybTMW/p+EIT5gaz/Nq1fE5oDk+MEAAAAPPnTqbL4yDue5JugGUZByxAAAAAzfv3r6CEg0Y8lazUFs4dO76yqXql6Z3vRFxgnFc2yrvCMCM8P0Q8DehWvg0Dsuw1hmsCRzdN9+U0tua5XuOs2Q==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>prueba1</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
